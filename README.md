@@ -26,5 +26,18 @@ terraform apply
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|:----:|:-----:|:-----:|
+| location | Location for the resource group | string | `"North Europe"` | no |
+| name | Name of the resource group | string | `"MyRG"` | no |
+| tags | Tags for the resource group | map(string) | `{}` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| resource\_group | Resource group |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
